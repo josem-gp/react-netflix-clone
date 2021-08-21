@@ -1,9 +1,12 @@
-import React from "react";
+import styled from "styled-components";
 
-const Jumbotron = ({ children, direction = "row", ...restProps }) => {
-  <Item>
-    <Inner direction={direction}>{children}</Inner>
-  </Item>;
-};
+export const Inner = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
-export default Jumbotron;
+export const Item = styled.div``;
+
+export const Container = styled.div`
+  color: red;
+`;
