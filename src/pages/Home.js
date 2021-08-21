@@ -1,13 +1,10 @@
 import React from "react";
-import Jumbotron from "../components/jumbotron";
+import { JumbotronContainer } from "../containers/Jumbotron";
 
 const Home = () => {
   return (
     <div>
-      <Jumbotron.Container>
-        <Jumbotron.Title>Title</Jumbotron.Title>
-        <Jumbotron.SubTitle>Subtitle</Jumbotron.SubTitle>
-      </Jumbotron.Container>
+      <JumbotronContainer />
     </div>
   );
 };
