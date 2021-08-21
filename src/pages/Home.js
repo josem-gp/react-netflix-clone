@@ -4,7 +4,10 @@ import Jumbotron from "../components/jumbotron";
 const Home = () => {
   return (
     <div>
-      <Jumbotron.Container>Hi from jumbotron container!!!</Jumbotron.Container>
+      <Jumbotron.Container>
+        <Jumbotron.Title>Title</Jumbotron.Title>
+        <Jumbotron.SubTitle>Subtitle</Jumbotron.SubTitle>
+      </Jumbotron.Container>
     </div>
   );
 };
