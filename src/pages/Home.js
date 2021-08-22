@@ -1,14 +1,14 @@
 import React from "react";
-import { JumbotronContainer } from "../containers/Jumbotron";
-import { FooterContainer } from "../containers/Footer";
+import { FaqsContainer } from "../containers/faqs";
+import { JumbotronContainer } from "../containers/jumbotron";
+import { FooterContainer } from "../containers/footer";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div>
+    <>
       <JumbotronContainer />
+      <FaqsContainer />
       <FooterContainer />
-    </div>
+    </>
   );
-};
-
-export default Home;
+}
