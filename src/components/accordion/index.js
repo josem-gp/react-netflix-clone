@@ -6,6 +6,7 @@ import {
   Container,
   Inner,
   Item,
+  Frame,
 } from "./styles/Accordion";
 
 export default function Accordion({ children, ...restProps }) {
@@ -18,6 +19,10 @@ export default function Accordion({ children, ...restProps }) {
 
 Accordion.Item = function AccordionItem({ children, ...restProps }) {
   return <Item {...restProps}>{children}</Item>;
+};
+
+Accordion.Frame = function AccordionFrame({ children, ...restProps }) {
+  return <Frame {...restProps}>{children}</Frame>;
 };
 
 Accordion.Title = function AccordionTitle({ children, ...restProps }) {
