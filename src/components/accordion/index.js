@@ -6,7 +6,7 @@ import {
   Container,
   Inner,
   Item,
-} from "./styles/accordion";
+} from "./styles/Accordion";
 
 export default function Accordion({ children, ...restProps }) {
   return (
