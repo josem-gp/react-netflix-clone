@@ -33,20 +33,20 @@ export const Container = styled.div`
   }
 `;
 
-export const Link = styled.p`
-  color: #fff;
-  text-decoration: none;
-  margin-right: 30px;
-  font-weight: ${({ active }) => (active === "true" ? "700" : "normal")};
-  cursor: pointer;
+// export const Link = styled.p`
+//   color: #fff;
+//   text-decoration: none;
+//   margin-right: 30px;
+//   font-weight: ${({ active }) => (active === "true" ? "700" : "normal")};
+//   cursor: pointer;
 
-  &:hover {
-    font-weight: bold;
-  }
-  &:last-of-type {
-    margin-right: 0;
-  }
-`;
+//   &:hover {
+//     font-weight: bold;
+//   }
+//   &:last-of-type {
+//     margin-right: 0;
+//   }
+// `;
 
 export const ButtonLink = styled(ReachRouterLink)`
   display: block;
