@@ -9,7 +9,7 @@ import {
   Link,
   Input,
   Submit,
-} from "./styles/form";
+} from "./styles/Form";
 
 export default function Form({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
