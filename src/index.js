@@ -7,7 +7,7 @@ import { FirebaseContext } from "./context/firebase";
 //import { seedDatabase } from "./seed";
 
 const config = {
-  apiKey: "AIzaSyAxXkyUlpz013wv2Rv0JUB1WnJ5G-aYRqo",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "netflix-clone-a94a9.firebaseapp.com",
   projectId: "netflix-clone-a94a9",
   storageBucket: "netflix-clone-a94a9.appspot.com",
