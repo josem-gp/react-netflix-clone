@@ -8,6 +8,9 @@ import {
   Container,
   Logo,
   ButtonLink,
+  Feature,
+  FeatureCallOut,
+  PlayButton,
 } from "./styles/Header";
 
 export default function Header({ bg = true, children, ...restProps }) {
