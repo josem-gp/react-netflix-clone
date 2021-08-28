@@ -4,6 +4,8 @@ import { GlobalStyles } from "./global-styles";
 import App from "./App";
 import { FirebaseContext } from "./context/firebase";
 
+import { seedDatabase } from "./seed";
+
 const config = {
   apiKey: "AIzaSyAxXkyUlpz013wv2Rv0JUB1WnJ5G-aYRqo",
   authDomain: "netflix-clone-a94a9.firebaseapp.com",
