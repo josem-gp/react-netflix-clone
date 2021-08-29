@@ -124,7 +124,7 @@ export const FeatureText = styled.p`
   font-size: 18px;
   color: white;
   font-weight: ${({ fontWeight }) => {
-    fontWeight === "bold" ? "bold" : "normal";
+    return fontWeight === "bold" ? "bold" : "normal"; //this seems to work with return...it gives  error without it
   }};
   margin: 0;
 

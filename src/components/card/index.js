@@ -16,7 +16,7 @@ import {
   Entities,
   Item,
   Image,
-} from "./styles/card";
+} from "./styles/Card";
 
 const FeatureContext = createContext();
 
